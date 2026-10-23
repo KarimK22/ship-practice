@@ -1,0 +1,15 @@
+// Cloudflare hosting config, same shape as Lingo's.
+// `--env dev` deploys the "ship-practice-dev" site, `--env prod` deploys "ship-practice-prod".
+{
+  "name": "ship-practice",
+  "compatibility_date": "2026-02-17",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "single-page-application",
+  },
+  "env": {
+    "dev": { "name": "ship-practice-dev" },
+    "prod": { "name": "ship-practice-prod" },
+  },
+}

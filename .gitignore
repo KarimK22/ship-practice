@@ -1,0 +1,24 @@
+# Installed packages and build output (rebuilt from package.json, never committed)
+node_modules
+dist
+*.tsbuildinfo
+
+# Secrets: never commit these
+.env
+.env.*
+.dev.vars
+*.local
+
+# Cloudflare local cache
+.wrangler
+
+# Logs
+*.log
+
+# Editor and OS clutter
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+.claude/settings.local.json
